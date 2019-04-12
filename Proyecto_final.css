@@ -1,0 +1,74 @@
+.pagina{
+    border: thin solid black;
+    display: grid;
+    grid-template-rows: auto;
+    background: rgb(12, 12, 39);
+}
+.headerBar {
+    border: thin solid black;
+    padding: 10px 10px;
+    background: rgba(3, 3, 3, 0.507);
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    height: 100px;
+    }
+.amazonLogo{
+    grid-row-start: initial;
+    padding-top: 5px;
+    grid-column: initial;
+    }
+.imagenDerecha {
+    grid-column: span 3;
+}
+.menuDerecha {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.lengua {
+    color:white;
+}
+.signIn{
+    font: bold; 
+    color:white;  
+}
+.fas.fa-shopping-cart {
+    color: white;
+}
+.busqueda {
+    display: inline-block;
+    align-content: center;
+    margin: 30px 20px 20px;
+    }
+.menu {
+    color: white;
+    margin: 15px;
+    width: 80px;
+}
+.segundoMenu {
+    background:  rgba(2, 2, 48, 0.507);
+}
+.subMenu{
+    background: rgb(12, 12, 39);
+    margin: 0px;
+    color: antiquewhite;
+}
+strong {
+    color: rgb(62, 128, 172);
+    background: rgb(12, 12, 39);
+    margin: 10px;
+}
+.contenedorImagenes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: rgb(12, 12, 39);;
+}
+.pelis{
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 10px 100px;
+}
+.footer {
+    background: rgb(12, 17, 24);
+    text-align: center;
+    height: 100px;
+}
